@@ -16,3 +16,7 @@ keys
 # Step state
 steps/.state.pkl
 tokenized_emotion/
+
+# Model files and checkpoints
+steps/emotion-distilbert-model/
+steps/emotion-distilbert-results/

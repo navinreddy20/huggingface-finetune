@@ -60,3 +60,16 @@ uv run step09_test_model.py
 ```bash
 uv run python huggingface_finetune.py
 ```
+
+## Gradio Web App
+
+Launch the Gradio GUI to predict emotions and run steps from the browser:
+
+```bash
+uv run python app.py
+```
+
+Open http://127.0.0.1:7860 in your browser. The app has two tabs:
+
+- **Emotion Predictor** — Compare predictions from the base model, fine-tuned model, and GPT-4o side by side.
+- **Run Steps** — Select and run any training step directly from the UI.
